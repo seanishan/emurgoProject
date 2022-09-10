@@ -1,3 +1,4 @@
+module Main where
 
 --QUESTION 1: BYTECODE STACK MACHINE
 
@@ -109,4 +110,4 @@ formattedLogs x = case (isJust x) of
                   True -> helperLogs (fromJust x) 
                   False -> "END\n"
 
-main = putStr (formattedLogs valt)
+result = putStr (formattedLogs valt)
