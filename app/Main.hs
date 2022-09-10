@@ -110,4 +110,4 @@ formattedLogs x = case (isJust x) of
                   True -> helperLogs (fromJust x) 
                   False -> "END\n"
 
-result = putStr (formattedLogs valt)
+main = putStr (formattedLogs valt)
