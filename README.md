@@ -47,6 +47,9 @@ I initialize the StateP as emptySP and store the Bytecode in bcList. The State l
 I also wrote a function called formattedLogs that prints the Logs in a much more readable way.
 We can examine the State log valt by running main in the repl.
 
+## Cabal Project
+Alternatively, it is possible to build and run the cabal project.
+
 ## Conclusion
 
 This is how I implemented a simple stack machine in Haskell. While this is a fairly naive implementation of said machine,
